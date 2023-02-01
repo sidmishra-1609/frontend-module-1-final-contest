@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel {
+    height: 80vh;
+}
+
+.carousel > .carousel-inner img {
+    height: 80vh;
+}
+.table-div {
+    width: 100%;
+    overflow: auto;
+}
+table {
+    min-width: 1200px;
+}
+table tr td a {
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 576px) {
+    .cards .card {
+        width: 100% !important;
+        margin-bottom: 1rem;
+    }
+    .cards .card:last-child {
+        margin-bottom: 0;
+    }
+}
